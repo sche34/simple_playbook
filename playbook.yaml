@@ -9,7 +9,7 @@
 
     - name: Creates directory
       ansible.builtin.file:
-        path: test_test
+        path: /home/tscheidel/test_test
         state: directory
     
     - name: install rye
