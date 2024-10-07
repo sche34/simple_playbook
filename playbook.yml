@@ -1,5 +1,5 @@
 - name: Research cloud Co plugin
-  hosts: all
+  hosts: localhost
   gather_facts: false
 
   tasks:
