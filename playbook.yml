@@ -7,5 +7,7 @@
       wait_for_connection:
         timeout: 300
 
-    - name: install rye
-      ansible.builtin.shell: curl -sSf https://rye.astral.sh/get | RYE_TOOLCHAIN_VERSION="3.11.9" RYE_INSTALL_OPTION="--yes" bash
+    - name: Creates directory
+      ansible.builtin.file:
+        path: test_test
+        state: directory
